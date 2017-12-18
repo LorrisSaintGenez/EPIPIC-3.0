@@ -14,7 +14,7 @@
     "nodemon": "nodemon src/index.js",
     "build": "npm install",
     "predeploy": "npm run build",
-    "deploy": "aws s3 sync public/ s3://epipic-s3bucket-albqej5s18z3"
+    "deploy": "aws s3 sync public/ s3://epipic-s3bucket-3728a41wm1rc"
   },
   "devDependencies": {
     "aws-sdk": "^2.158.0",
